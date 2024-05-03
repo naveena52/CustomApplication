@@ -12,8 +12,8 @@ const config = {
       initialProjectKey: 'custom_application',
     },
     production: {
-      applicationId: 'TODO',
-      url: "${ env: APP_URL }",
+      applicationId: "${env:APP_ID}",
+      url: "${ env:APP_URL}",
     },
   },
   oAuthScopes: {
